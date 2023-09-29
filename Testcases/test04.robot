@@ -1,15 +1,20 @@
 *** Settings ***
 Library    SeleniumLibrary
-
 *** Variables ***
 ${url}=    https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-${Browser}=    Edge 
+${Browser}=    Edge
+*** Test Cases ***
+Tc001 login test 
+    Se connecter à l'application orange demo    ${url}   ${Browser}     
+    Saisir le nom d'utilisateur
+    Saisir le mot de passe 
+    cliquer sur le boutton loging
+    Valider l'affichage de la page d'acceuil
+    Fermer l'application
 *** Keywords ***
 Se connecter à l'application orange demo
-    [Documentation]    Ce keyword est crée par Nawel
-    ...    Pour ouvrir des applicatiob web dans un navigateur 
-    ...  
-    Open Browser    ${url}    ${Browser}
+    [Arguments]    ${myUrl}    ${myBrowser}
+    Open Browser    ${myUrl}    ${myBrowser}
     Maximize Browser Window
     Sleep    3
 Saisir le nom d'utilisateur
@@ -25,4 +30,3 @@ Valider l'affichage de la page d'acceuil
     Element Text Should Be    xpath://h6    Dashboard
 Fermer l'application
     Close Browser
-

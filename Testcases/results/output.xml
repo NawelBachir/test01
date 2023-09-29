@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230928 20:10:08.786" rpa="false" schemaversion="4">
+<suite id="s1" name="Test03" source="C:\Users\DELL\Desktop\ETUDE\Session 3\TECHNIQUES D'AUTOMATISATION DE TESTS I\Seance_3\testcases\test03.robot">
+<test id="s1-t1" name="tc01" line="10">
+<kw name="Log" library="BuiltIn">
+<arg>test1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:08.832" level="INFO">test1</msg>
+<status status="PASS" starttime="20230928 20:10:08.832" endtime="20230928 20:10:08.832"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20230928 20:10:08.831" endtime="20230928 20:10:08.833"/>
+</test>
+<test id="s1-t2" name="tc02" line="13">
+<kw name="Log" library="BuiltIn">
+<arg>test2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:08.836" level="INFO">test2</msg>
+<status status="PASS" starttime="20230928 20:10:08.836" endtime="20230928 20:10:08.837"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20230928 20:10:08.836" endtime="20230928 20:10:08.837"/>
+</test>
+<test id="s1-t3" name="tc03" line="16">
+<kw name="Log" library="BuiltIn">
+<arg>test3</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:08.839" level="INFO">test3</msg>
+<status status="PASS" starttime="20230928 20:10:08.839" endtime="20230928 20:10:08.840"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20230928 20:10:08.839" endtime="20230928 20:10:08.840"/>
+</test>
+<test id="s1-t4" name="tc04" line="19">
+<kw name="Log" library="BuiltIn">
+<arg>test4</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:08.843" level="INFO">test4</msg>
+<status status="PASS" starttime="20230928 20:10:08.842" endtime="20230928 20:10:08.843"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20230928 20:10:08.841" endtime="20230928 20:10:08.843"/>
+</test>
+<status status="PASS" starttime="20230928 20:10:08.790" endtime="20230928 20:10:08.845"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">regression</stat>
+<stat pass="2" fail="0" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Test03">Test03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
